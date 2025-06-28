@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark logo for white backgrounds -->
+  <g>
+    <!-- NANHI text curved at top -->
+    <defs>
+      <path id="topCurve" d="M 80 180 A 170 170 0 0 1 420 180" fill="none"/>
+    </defs>
+    
+    <!-- Blue arcs -->
+    <path d="M 100 250 A 150 150 0 0 1 400 250" fill="none" stroke="#3b82f6" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 130 250 A 120 120 0 0 1 370 250" fill="none" stroke="#60a5fa" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Connection points -->
+    <circle cx="100" cy="250" r="12" fill="#1e293b"/>
+    <circle cx="200" cy="250" r="8" fill="#3b82f6"/>
+    <circle cx="300" cy="250" r="8" fill="#1e293b"/>
+    <circle cx="400" cy="250" r="12" fill="#3b82f6"/>
+    
+    <!-- NANHI text curved -->
+    <text font-size="48" font-weight="bold" fill="#1e293b" font-family="Arial, sans-serif">
+      <textPath href="#topCurve" startOffset="50%" text-anchor="middle">NANHI</textPath>
+    </text>
+    
+    <!-- LINK text at bottom -->
+    <text x="250" y="380" font-size="36" font-weight="bold" fill="#1e293b" text-anchor="middle" font-family="Arial, sans-serif">LINK</text>
+  </g>
+</svg>
